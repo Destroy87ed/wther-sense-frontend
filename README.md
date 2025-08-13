@@ -1,26 +1,20 @@
+# Weather Sense - Frontend
 
----
+The frontend of this project is built using **React**, serving as the backbone of the application.  
+It handles routing and rendering of multiple sub-components, including:
 
-### **`backend/README.md`**
-```md
-# Weather Sense - Backend
+- Visually appealing dashboard page
+- Welcoming page
+- Intuitive login/register pages
 
-The backend of this project is built using **Express.js** and **Node.js**, acting as the bridge between the React frontend and the MongoDB database.
+These pages are designed using HTML, CSS, and JavaScript for a smooth and engaging user experience.
 
-It manages:
-- User authentication (register/login)
-- Weather API data retrieval
-- Database storage and queries
-
-The MongoDB database is hosted on **MongoDB Atlas** and contains:
-- **Active Users**: Currently logged-in users
-- **Registered Users**: User details including name, email, password, and city
+To interact with the backend and the Weather API, the frontend uses the **Axios** library for secure GET/POST requests, enabling seamless data exchange.
 
 ---
 
 ## Installation
 
 ```bash
-git clone https://github.com/kunaal-gupta/WeatherSense.git
-cd server
+cd frontend
 npm install
