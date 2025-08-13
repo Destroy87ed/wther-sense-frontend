@@ -18,3 +18,4 @@ To interact with the backend and the Weather API, the frontend uses the **Axios*
 ```bash
 cd frontend
 npm install
+npm run dev
